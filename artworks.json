@@ -1,4 +1,18 @@
 {
   "gallery_name": "COOL KIDS",
-  "artworks": []
+  "artworks": [
+    {
+      "id": 8,
+      "username": "Aspidiske",
+      "caption": "Testing image, here's Al-chan for now\nThe site is up at <https://yuuhei.github.io/cool-kids-art-gallery/>\n\n<>",
+      "tags": [
+        "1420717836606771231"
+      ],
+      "image_filename": "1537095243097309235_0.png",
+      "width": 807,
+      "height": 1079,
+      "message_link": "https://discord.com/channels/1416305461954740338/1536909414492282990/1537095243097309235",
+      "created_at": "2026-08-12T13:47:45.042582"
+    }
+  ]
 }
