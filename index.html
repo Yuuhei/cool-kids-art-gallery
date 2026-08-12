@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Gallery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <h1 class="wordmark" id="wordmark">The Gallery</h1>
+
+    <div class="controls">
+      <div class="search-wrap">
+        <input id="search" type="text" placeholder="Search artist, caption, tag&hellip;" autocomplete="off" />
+      </div>
+      <button class="fav-toggle" id="fav-toggle" aria-pressed="false">
+        <span class="like-heart">&hearts;</span> Saved
+      </button>
+    </div>
+  </div>
+
+  <div class="tag-rail" id="tag-rail" aria-label="Filter by tag"></div>
+</header>
+
+<main>
+  <div class="wall" id="wall"></div>
+  <p class="empty-state" id="empty-state" hidden>
+    The wall is bare.<br>
+    <span id="empty-state-sub">Post artwork in the Discord art channel and it'll show up here.</span>
+  </p>
+</main>
+
+<div class="lightbox" id="lightbox" hidden>
+  <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+  <div class="lightbox-frame">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+    <div class="lightbox-image-wrap">
+      <img id="lightbox-image" alt="" />
+    </div>
+    <div class="placard">
+      <p class="placard-eyebrow">Artist</p>
+      <h2 class="placard-title" id="lightbox-artist"></h2>
+      <p class="placard-caption" id="lightbox-caption"></p>
+      <div class="placard-tags" id="lightbox-tags"></div>
+      <div class="placard-actions">
+        <button class="like-btn" id="lightbox-like">
+          <span class="like-heart">&hearts;</span>
+          <span id="lightbox-like-label">Save</span>
+        </button>
+        <a id="lightbox-source" href="#" target="_blank" rel="noopener">View on Discord &rarr;</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
