@@ -1,18 +1,4 @@
 {
   "gallery_name": "COOL KIDS",
-  "artworks": [
-    {
-      "id": 9,
-      "username": "Aspidiske",
-      "caption": "Test image, here's Al-chan for now!\nYou can follow me at my socials:\n\n<https://somerandomsocmed.com>\n<https://idkwhatimdoing.idk.com>",
-      "tags": [
-        "art"
-      ],
-      "image_filename": "1537101976209334355_0.png",
-      "width": 807,
-      "height": 1079,
-      "message_link": "https://discord.com/channels/1416305461954740338/1536909414492282990/1537101976209334355",
-      "created_at": "2026-08-12T14:14:31.046466"
-    }
-  ]
+  "artworks": []
 }
