@@ -2,6 +2,17 @@
   "gallery_name": "COOL KIDS",
   "artworks": [
     {
+      "id": 5,
+      "username": "Aspidiske",
+      "caption": "testing something, here's vergil smiling",
+      "tags": [],
+      "image_filename": "1536931067137753150_0.jpg",
+      "width": 284,
+      "height": 300,
+      "message_link": "https://discord.com/channels/1416305461954740338/1536909414492282990/1536931067137753150",
+      "created_at": "2026-08-12T02:55:23.544973"
+    },
+    {
       "id": 4,
       "username": "Aspidiske",
       "caption": "",
