@@ -1,0 +1,16 @@
+{
+  "gallery_name": "COOL KIDS",
+  "artworks": [
+    {
+      "id": 1,
+      "username": "Aspidiske",
+      "caption": "",
+      "tags": [],
+      "image_filename": "1536927092854497280_0.png",
+      "width": 807,
+      "height": 1079,
+      "message_link": "https://discord.com/channels/1416305461954740338/1536909414492282990/1536927092854497280",
+      "created_at": "2026-08-12T02:39:35.044717"
+    }
+  ]
+}
