@@ -2,17 +2,6 @@
   "gallery_name": "COOL KIDS",
   "artworks": [
     {
-      "id": 6,
-      "username": "Aspidiske",
-      "caption": "Testing, here's Al-chan for first post",
-      "tags": [],
-      "image_filename": "1536932508975763516_0.png",
-      "width": 807,
-      "height": 1079,
-      "message_link": "https://discord.com/channels/1416305461954740338/1536909414492282990/1536932508975763516",
-      "created_at": "2026-08-12T03:01:05.944631"
-    },
-    {
       "id": 3,
       "username": "Aspidiske",
       "caption": "",
