@@ -1,4 +1,18 @@
 {
   "gallery_name": "COOL KIDS",
-  "artworks": []
+  "artworks": [
+    {
+      "id": 11,
+      "username": "Aspidiske",
+      "caption": "Test image, here's Al-chan for now!\nThe Design is very human\n\nYou can follow me at my socials:\nhttps://somerandomsocmed.com\nhttps://mycommissionwebsite.com",
+      "tags": [
+        "art"
+      ],
+      "image_filename": "1537105757684891649_0.png",
+      "width": 807,
+      "height": 1079,
+      "message_link": "https://discord.com/channels/1416305461954740338/1536909414492282990/1537105757684891649",
+      "created_at": "2026-08-12T14:29:31.717927"
+    }
+  ]
 }
