@@ -2,6 +2,19 @@
   "gallery_name": "COOL KIDS",
   "artworks": [
     {
+      "id": 13,
+      "username": "Miyuki",
+      "caption": "hands up Gabriella",
+      "tags": [
+        "art"
+      ],
+      "image_filename": "1539227291463196712_0.png",
+      "width": 1404,
+      "height": 1730,
+      "message_link": "https://discord.com/channels/1416305461954740338/1536909414492282990/1539227291463196712",
+      "created_at": "2026-08-18T11:00:06.920048"
+    },
+    {
       "id": 12,
       "username": "AZURAi.",
       "caption": "",
