@@ -2,19 +2,6 @@
   "gallery_name": "COOL KIDS",
   "artworks": [
     {
-      "id": 14,
-      "username": "Aspidiske",
-      "caption": "test",
-      "tags": [
-        "nsfw"
-      ],
-      "image_filename": "1548669493729828994_0.jpg",
-      "width": 400,
-      "height": 400,
-      "message_link": "https://discord.com/channels/1416305461954740338/1536909414492282990/1548669493729828994",
-      "created_at": "2026-09-13T12:19:40.972122"
-    },
-    {
       "id": 13,
       "username": "Miyuki",
       "caption": "hands up Gabriella",
