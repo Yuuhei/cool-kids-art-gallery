@@ -22,6 +22,21 @@ html, body {
   font-family: var(--font-body);
 }
 
+.bg-highlight {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 1.4s ease;
+}
+
+.bg-highlight.is-visible {
+  opacity: 0.05;
+}
+
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
 }

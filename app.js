@@ -43,8 +43,20 @@ async function init() {
   }
 
   state.all = data.artworks || [];
+  setRandomBackground(state.all);
   buildTagRail();
   render();
+}
+
+function setRandomBackground(items) {
+  const bg = document.getElementById("bg-highlight");
+  if (!bg) return;
+  const eligible = items.filter(i => !(i.tags || []).includes("nsfw"));
+  if (!eligible.length) return;
+  const pick = eligible[Math.floor(Math.random() * eligible.length)];
+  bg.style.backgroundImage = `url('images/${pick.image_filename}')`;
+  // trigger fade-in after the image starts loading
+  requestAnimationFrame(() => bg.classList.add("is-visible"));
 }
 
 function buildTagRail() {
