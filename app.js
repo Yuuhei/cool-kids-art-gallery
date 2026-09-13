@@ -114,10 +114,17 @@ function renderPiece(item) {
   const el = document.createElement("article");
   el.className = "piece";
   const tags = item.tags || [];
+  const isNsfw = tags.includes("nsfw");
 
   el.innerHTML = `
-    <div class="piece-frame">
+    <div class="piece-frame ${isNsfw ? "is-nsfw" : ""}">
       <img src="images/${item.image_filename}" alt="${escapeHtml(item.caption || 'Untitled artwork')}" loading="lazy" />
+      ${isNsfw ? `
+        <div class="nsfw-overlay">
+          <span class="nsfw-badge">NSFW</span>
+          <span class="nsfw-hint">Tap to view</span>
+        </div>
+      ` : ""}
       <span class="piece-saved-mark ${isFav ? "is-visible" : ""}">&hearts;</span>
     </div>
     <div class="piece-label">
